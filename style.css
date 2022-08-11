@@ -36,6 +36,14 @@ html, body {
     border-radius: 15px;
 }
 
+@media screen and (max-width: 376px) {
+    .nft-card {
+        padding: 24px;
+        width: 327px;
+        height: 543px;
+    }
+}
+
 .nft-card_image-link {
     display: flex;
     border-radius: 10px;
